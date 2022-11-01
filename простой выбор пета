@@ -1,0 +1,12 @@
+import random
+
+print('введите название 3 животных')
+pet1 = input('первое:')
+pet2 = input('второе:')
+pet3 = input('третье:')
+print('введите 3 разных описания животных')
+prop1 = input('первое:')
+prop2 = input('второе:')
+prop3 = input('третье:')
+
+print(random.choice([pet1,pet2,pet3]) + ' ' + random.choice([prop1,prop2,prop3]))
